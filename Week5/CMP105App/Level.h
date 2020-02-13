@@ -4,6 +4,7 @@
 #include "Framework/Input.h"
 #include "Framework/GameObject.h"
 #include "Zombie.h"
+#include "BrotherOfLuigi.h"
 #include <string>
 #include <iostream>
 
@@ -28,4 +29,6 @@ private:
 
 	Zombie zombie;
 	sf::Texture zombTexture;
+	BrotherOfLuigi redGoii;
+	sf::Texture MarioTexture;
 };

@@ -20,9 +20,6 @@ Zombie::Zombie()
 
 void Zombie::handleInput(float dt)
 {
-	//currentAnimation->animate(dt);
-	//setTextureRect(currentAnimation->getCurrentFrame());
-
 	if (input->isKeyDown(sf::Keyboard::Right) == true)
 	{
 		//std::cout << "Yesis.\n";
