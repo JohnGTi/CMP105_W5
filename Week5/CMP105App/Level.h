@@ -3,11 +3,12 @@
 #include <SFML/Graphics.hpp>
 #include "Framework/Input.h"
 #include "Framework/GameObject.h"
+#include "Zombie.h"
 #include <string>
 #include <iostream>
 
 
-class Level{
+class Level {
 public:
 	Level(sf::RenderWindow* hwnd, Input* in);
 	~Level();
@@ -24,4 +25,7 @@ private:
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
+
+	Zombie zombie;
+	sf::Texture zombTexture;
 };
